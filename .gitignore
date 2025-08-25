@@ -1,0 +1,20 @@
+# Ignore virtual envs
+venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore video and large binary files
+*.mp4
+*.avi
+*.mov
+*.dll
+*.lib
+
+# Ignore model weights / checkpoints
+*.safetensors
+*.pth
+*.pt
+*.bin
